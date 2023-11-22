@@ -1,0 +1,139 @@
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffcc00; /* Yellow text color */
+}
+
+header {
+    background-color: #004080; /* Darker blue header */
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 52px;
+    color: #ffcc00; /* Yellow text color */
+}
+
+#search {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #004080;
+    padding: 15px;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    background-color: #005cbf; /* Lighter blue dropdown background */
+    color: #ffcc00; /* Yellow text color */
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+        margin: 10px; /* Decreased margin for less spacing between cards */
+        max-width: 300px;
+        overflow: hidden;
+        background-color: #005cbf; /* Lighter blue card background */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.project-card .like-button {
+    background-color: #ffcc00; /* Yellow like button */
+    color: #001f3f; /* Dark blue text color */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+}
+
+.project-card .like-button.liked {
+    background-color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal img {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close-modal {
+    color: #ffcc00; /* Yellow text color */
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.like-button {
+    background-color: #333;
+    color: #ffffcc; /* Yellow text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.like-button.liked {
+    background-color: red;
+    color: #fff; /* White text color */
+}
+
+/* Add styles for the like text modal */
+.like-text-modal {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #001f3f; /* Dark blue text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+

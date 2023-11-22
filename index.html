@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>enhance-x</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Enhance-x</div>
+        <input type="text" id="search" placeholder="Search...">
+    </header>
+
+    <nav>
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="design">Design</option>
+            <option value="photography">Photography</option>
+            <!-- Add more categories as needed -->
+        </select>
+    </nav>
+
+    <main>
+        <!-- Project cards go here -->
+        <!-- Example card structure: -->
+        <div class="project-card" data-category="design">
+            <img src="a.jpeg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <div class="project-card" data-category="photography">
+            <img src="1.jpg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <div class="project-card" data-category="design">
+            <img src="b.jpeg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <div class="project-card" data-category="photography">
+            <img src="2.jpg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <div class="project-card" data-category="design">
+            <img src="c.jpeg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <div class="project-card" data-category="photography">
+            <img src="3.jpg" alt="Project Image">
+            <button class="like-button">Like</button>
+        </div>
+        <!-- Add more cards as needed -->
+    </main>
+
+    <!-- Modal for displaying larger image -->
+    <!-- Modal for displaying larger image -->
+<div id="imageModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img id="modalImage" src="" alt="Large Image">
+</div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
